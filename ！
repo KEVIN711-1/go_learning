@@ -1,0 +1,16 @@
+[go_learning] plusOne2
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Sat Nov 29 16:13:27 2025 +0800
+#
+# interactive rebase in progress; onto 14f71f1
+# Last command done (1 command done):
+#    pick 9291920 # [go_learning] plusOne 2
+# No commands remaining.
+# You are currently editing a commit while rebasing branch 'master' on '14f71f1'.
+#
+# Changes to be committed:
+#	new file:   home_work/plusOne/plusOne.go
+#
