@@ -80,4 +80,50 @@ func main() {
 	Rectangle_area = Rectangle.Area()
 	Rectangle_perimeter = Rectangle.Perimeter()
 	fmt.Printf("main p Shape %.2f 计算矩形的周长：%.2f\n", Rectangle_area, Rectangle_perimeter)
+
+	// 单个Employee
+	per_employee := Employee{
+		Person: Person{
+			Name: "kfzhu",
+			Age:  "24",
+		},
+		EmployeeID: "10",
+	}
+	fmt.Println("=== 单个雇员 ===")
+	per_employee.PrintInfo()
+
+	// Employee切片指针
+	per_employees := EmployeeList{
+		{
+			Person: Person{
+				Name: "张三",
+				Age:  "24",
+			},
+			EmployeeID: "10",
+		},
+		{
+			Person: Person{
+				Name: "李四",
+				Age:  "25",
+			},
+			EmployeeID: "11",
+		},
+		{
+			Person: Person{
+				Name: "王五",
+				Age:  "26",
+			},
+			EmployeeID: "12",
+		},
+		{
+			Person: Person{
+				Name: "赵六",
+				Age:  "27",
+			},
+			EmployeeID: "13",
+		},
+	}
+
+	fmt.Println("\n=== 所有雇员 ===")
+	per_employees.PrintInfo_all()
 }
